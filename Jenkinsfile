@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git url: 'https://github.com/devopsplan2026/Expense-tracker.git'
+                git url: 'https://github.com/devopsplan2026/Expense-tracker.git, branch: 'main'
             }
         }
 
